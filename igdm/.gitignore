@@ -1,0 +1,13 @@
+# Runtime state. Holds access tokens and real user data. Never commit.
+state/
+*.log
+
+# Secrets
+.env
+.env.local
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
